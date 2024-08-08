@@ -109,7 +109,7 @@ export default {
   async fetch(request, env, ctx) {
     try {
       const {
-        PROXY_HOSTNAME = "https://www.speedtest.net/",
+        PROXY_HOSTNAME = "speedtest.net",
         PROXY_PROTOCOL = "https",
         PATHNAME_REGEX,
         UA_WHITELIST_REGEX,
