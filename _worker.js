@@ -109,7 +109,7 @@ export default {
   async fetch(request, env, ctx) {
     try {
       const {
-        PROXY_HOSTNAME,
+        PROXY_HOSTNAME = "https://github.com/xianrenzhou2",
         PROXY_PROTOCOL = "https",
         PATHNAME_REGEX,
         UA_WHITELIST_REGEX,
